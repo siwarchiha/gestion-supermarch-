@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
+   <children>
+      <AnchorPane layoutX="2.0" layoutY="-12.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="576.0" style="-fx-background-color: #7ec867;">
+         <children>
+            <Label layoutX="350.0" layoutY="83.0" prefHeight="30.0" prefWidth="162.0" text="Gestion des caissiers" textFill="#fffbfb" underline="true">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="397.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/projet/supermarket-logo-template-design-vector-30440331.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="337.0" layoutY="126.0" text="Que voulez-vous faire exactement ?" textFill="WHITE" />
+            <CheckBox layoutX="314.0" layoutY="301.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="234.0" text="supprimer caissier" />
+            <CheckBox layoutX="314.0" layoutY="260.0" mnemonicParsing="false" text="modifier caissier" />
+            <CheckBox layoutX="314.0" layoutY="215.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="189.0" text="ajouter caissier" />
+            <CheckBox layoutX="314.0" layoutY="171.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="202.0" text="rechercher caissier" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
