@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="576.0" style="-fx-background-color: #7ec867;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.affichProdRay">
+   <children>
+      <Label layoutX="134.0" layoutY="34.0" prefHeight="30.0" prefWidth="394.0" text="tableau des produits dans les rayons:" textFill="#fffbfb" underline="true">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tble" layoutX="29.0" layoutY="119.0" prefHeight="215.0" prefWidth="506.0">
+         <columns>
+            <TableColumn fx:id="ref" prefWidth="58.4000244140625" text="ref" />
+            <TableColumn fx:id="nom_produit" minWidth="9.60003662109375" prefWidth="96.0" text="nom_produit" />
+            <TableColumn fx:id="categorie" minWidth="9.60003662109375" prefWidth="94.4000244140625" text="categorie" />
+            <TableColumn fx:id="marque" prefWidth="89.5999755859375" text="marque" />
+            <TableColumn fx:id="prix" text="prix" />
+            <TableColumn fx:id="num_rayon" prefWidth="88.00006103515625" text="num_rayon" />
+         </columns>
+      </TableView>
+      <Button fx:id="aff" layoutX="250.0" layoutY="75.0" mnemonicParsing="false" onAction="#affProd" prefHeight="26.0" prefWidth="76.0" text="Afficher" />
+   </children>
+</AnchorPane>

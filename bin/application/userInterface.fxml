@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="576.0" style="-fx-background-color: #7ec867;" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.userInterfaceController">
+
+
+   <children>
+      <Label layoutX="366.0" layoutY="76.0" prefHeight="30.0" prefWidth="122.0" text="Espace Employe" textFill="#fffbfb" underline="true">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="397.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/projet/supermarket-logo-template-design-vector-30440331.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="388.0" layoutY="116.0" text="Qui etes vous?" textFill="WHITE" />
+      <CheckBox fx:id="chgest" layoutX="314.0" layoutY="301.0" mnemonicParsing="false" onAction="#congest" prefHeight="18.0" prefWidth="234.0" text="un gestionnaire de stock" />
+      <CheckBox fx:id="chmag" layoutX="314.0" layoutY="260.0" mnemonicParsing="false" onAction="#conmag" text="un magazinier" />
+      <CheckBox fx:id="chcaiss" layoutX="314.0" layoutY="215.0" mnemonicParsing="false" onAction="#concaiss" prefHeight="18.0" prefWidth="189.0" text="un caissier" />
+      <CheckBox fx:id="chgerant" layoutX="314.0" layoutY="171.0" mnemonicParsing="false" onAction="#congerant" prefHeight="18.0" prefWidth="202.0" text="un gerant" />
+   </children>
+</AnchorPane>
